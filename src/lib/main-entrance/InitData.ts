@@ -402,7 +402,12 @@ export default class InitData {
   public setColorPanelStatus(status: boolean) {
     colorSelectController = this.getColorPanel();
     if (colorSelectController == null) return;
+    const toolPosition = this.getToolPosition();
     if (status) {
+      const toolTop = toolPosition?.top || 0;
+      if (toolTop + 180 < 257) {
+        colorSelectController.style.top = "10px";
+      }
       colorSelectController.style.display = "flex";
       return;
     }
