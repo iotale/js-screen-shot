@@ -1,11 +1,11 @@
 {
-  "name": "js-web-screen-shot",
+  "name": "screen-shot-hdpi",
   "version": "1.7.2",
-  "description": "web端自定义截屏插件(原生JS版)",
+  "description": "web端截屏插件(原生JS版)",
   "main": "dist/screenShotPlugin.common.js",
   "private": false,
   "types": "dist/type/main.d.ts",
-  "publisher": "magicalprogrammer@qq.com",
+  "publisher": "",
   "scripts": {
     "build": "vue-cli-service build --target lib --name screenShotPlugin src/main.ts",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
@@ -13,24 +13,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/likaia/js-screen-shot.git"
+    "url": "git+https://github.com/iotale/js-screen-shot.git"
   },
   "keywords": [
-    "web-best-screen-shot",
-    "web-screen-shot",
+    "screen-shot-hdpi",
     "screen-shot",
     "截屏",
     "截图",
     "屏幕截图",
-    "自定义截图",
     "web端自定义截屏"
   ],
-  "author": "likaia",
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/likaia/js-screen-shot/issues"
   },
-  "homepage": "https://github.com/likaia/js-screen-shot#readme",
+  "homepage": "https://github.com/iotale/js-screen-shot",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-angular": "^11.0.0",
